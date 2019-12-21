@@ -1,107 +1,75 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    background:lightgray;
+   margin: 20px;
+    background-color: #efefef;
+
 }
-header {
-    background-color: #4aaaa5;
+header{
+    border-bottom: solid #cccccc;
+    background: #ffffff;
+    margin: 0 auto;
+    margin: -30px;
+    padding: 10px;
+
+}
+
+#name {
+    background: #4aaaa5;
+    text-align: center;
     border: #cccccc solid thin;
     color: white;
-    margin-left: 17%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 25px;
+    margin-bottom: -20px;
+    margin-right: -50px;
+    padding: 15px 30px 15px 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/* index image */
-#profile-image{
-    float: left;
-    padding-right: 10px;
-    padding-left: 10px;
-}
+ul{
+    list-style-type: none;
 
-/* paragraph for index.html */
-p{
+}
+li a{
+    display: inline-block;
     color: #777777;
     text-align: center;
+    font-family: 'Arial' 'Helvetica neue',Helvetica, sans-serif;
+    text-decoration: none;
 }
-/* subheader for contact page */
-h4 {
-    color: #4aaaa5;
-    clear: both;
-    margin-left: 50px;
-    height: -150px;
-    font-size: 30px;
-    margin-left: 1%;
+
+.col-sm-2{
+    margin-top: 30px;
+    padding-right: 40px;
 
 }
-#links {
+head {
     margin: 0 auto;
-    margin-right: auto;
-    color: #777777;
+    width: 960px;
 
 }
-/*about link */
-#about {
-    border-right: #777777 solid 1px;
-    border-spacing: 20px;
+#main{
+    background: white;
+    border: #dddddd;
+    width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    color: teal;
+    text-align: left;
+    font-family: 'Georgia',Times, 'Times New Roman',serif;
+    margin-left: 20px;
     margin-right: 20px;
-    padding-right: 20px;
-    color: #777777;
-
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid #cccccc;
 }
-
-/* portfolio link */
-#portfolio {
-    border-right: #777777 solid 1px
-    border-spacing 20px;
+#profile-pic {
+    width: 200px;
+    border: solid black;
+    float: left;
     margin-right: 20px;
-    padding-right: 20px;
-    color: #777777;
-
-}
-/* contact link */
-#contact {
-    padding-right: 17%;
-    color: #777777
-}
-/* contact form div */
-input [type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-
-}
-/* main content div for contact page */
-#button {
-    background-color: #4aaaa5;
-    font-size: 15px;
-    color: white;
+    margin-left: 10px;
 
 }
 
-/*main content div for contact page */
-.container {
-    background-color: #ffffff;
-    width: 67%;
-    height: 67%;
-    margin: auto;
-    padding-bottom: 10px;
-    padding-right: 10px;
-    padding-left: 10px;
-    position: fixed;
-    top: 17%;
-    left: 15%;
-    border: thin;
-    border-style: solid;
-    border-color: #dddddd;
-
-}
-/* footer for contact/portfolio pages */
 footer{
     background-color: #666666;
     text-align: center;
