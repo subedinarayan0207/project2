@@ -60,6 +60,17 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: solid #cccccc;
+
+}
+
+.inpbox{
+    width: 50%;
+
+} 
+
+#subject{
+    width: 50%;
+    height: 300px;
 }
 #profile-pic {
     width: 200px;
@@ -82,6 +93,11 @@ footer{
     bottom: 0;
     width: 100%;
 
+}
+
+.portImg{
+    padding: 10px;
+    
 }
 
 
